@@ -1,0 +1,44 @@
+Namespace(seed=42, device='cuda:2', topk=50, model_conf='conf/LightGCN/QB-video.conf', checkpoint=-1, max_edit_rounds=20, edit_round=1, edit_num=10, edit_type='SiReN', edit_lr=0.001, edit_loss='bce', alpha=0.9999, sample_num=100, num_pre_epoch=20, plugin_weight='checkpoint/plugin/LightGCN/SiReN/QB-video/0.9999.pth', TR_lr=0.001)
+Check Point Path: ./checkpoint/LightGCN/QB-video/LightGCN@best.pth
+Loading data
+load weight from ./checkpoint/LightGCN/QB-video/LightGCN@best.pth
+/home/zhousheng/EXP/model/base/torch_interface.py:10: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  i = torch.LongTensor([coo.row, coo.col])
+/home/zhousheng/EXP/model/base/torch_interface.py:12: UserWarning: torch.sparse.SparseTensor(indices, values, shape, *, device=) is deprecated.  Please use torch.sparse_coo_tensor(indices, values, shape, dtype=, device=). (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:605.)
+  return torch.sparse.FloatTensor(i, v, coo.shape)
+Model Pretrain
+Pretrain Epoch:0 Recall:0.3192 NDCG:0.1972
+Pretrain Epoch:1 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:2 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:3 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:4 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:5 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:6 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:7 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:8 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:9 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:10 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:11 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:12 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:13 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:14 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:15 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:16 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:17 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:18 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:19 Recall:0.3193 NDCG:0.1973
+Org Recall:0.3193 NDCG:0.1973
+Sample Finish!
+Edit Finish! Use 136.4830ms
+Edit Round:0 EC:0.3716 EP:0.9539 EC_ACC:0.8311 Recall:0.3188 NDCG:0.1972
+Edit ACC: 0.2000±0.0000
+EC: 0.3716±0.0000
+EP: 0.9539±0.0000
+EC_ACC: 0.8311±0.0000
+Edit Recall: 0.3188±0.0000
+Edit NDCG: 0.1972±0.0000
+/home/zhousheng/anaconda3/envs/py39/lib/python3.9/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/zhousheng/anaconda3/envs/py39/lib/python3.9/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Edit Time: nan

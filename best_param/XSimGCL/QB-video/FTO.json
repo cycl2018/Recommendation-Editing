@@ -1,0 +1,1 @@
+{"seed": "42", "device": "'cuda:0'", "topk": "50", "model": "XSimGCL", "dataset": "QB-video", "checkpoint": "-1", "max_edit_rounds": "20", "edit_round": "10", "edit_num": "10", "edit_type": "'FTO'", "edit_lr": "0.1", "edit_loss": "'bpr'", "alpha": "0.001", "sample_num": "100", "num_pre_epoch": "20", "plugin_weight": "''"}

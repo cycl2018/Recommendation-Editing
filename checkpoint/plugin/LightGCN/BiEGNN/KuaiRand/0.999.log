@@ -1,0 +1,31 @@
+Check Point Path: ./checkpoint/LightGCN/KuaiRand/LightGCN@best.pth
+Loading data
+load weight from ./checkpoint/LightGCN/KuaiRand/LightGCN@best.pth
+Model Pretrain
+Pretrain Epoch:0 Recall:0.2329 NDCG:0.0879
+Pretrain Epoch:1 Recall:0.2328 NDCG:0.0881
+Pretrain Epoch:2 Recall:0.2320 NDCG:0.0879
+Pretrain Epoch:3 Recall:0.2323 NDCG:0.0880
+Pretrain Epoch:4 Recall:0.2325 NDCG:0.0881
+Pretrain Epoch:5 Recall:0.2324 NDCG:0.0881
+Pretrain Epoch:6 Recall:0.2326 NDCG:0.0882
+Pretrain Epoch:7 Recall:0.2329 NDCG:0.0883
+Pretrain Epoch:8 Recall:0.2332 NDCG:0.0883
+Pretrain Epoch:9 Recall:0.2335 NDCG:0.0884
+Pretrain Epoch:10 Recall:0.2334 NDCG:0.0884
+Pretrain Epoch:11 Recall:0.2334 NDCG:0.0884
+Pretrain Epoch:12 Recall:0.2338 NDCG:0.0884
+Pretrain Epoch:13 Recall:0.2337 NDCG:0.0884
+Pretrain Epoch:14 Recall:0.2335 NDCG:0.0884
+Pretrain Epoch:15 Recall:0.2334 NDCG:0.0884
+Pretrain Epoch:16 Recall:0.2335 NDCG:0.0884
+Pretrain Epoch:17 Recall:0.2330 NDCG:0.0883
+Pretrain Epoch:18 Recall:0.2332 NDCG:0.0883
+Pretrain Epoch:19 Recall:0.2331 NDCG:0.0883
+Org Recall:0.2338 NDCG:0.0884
+Edit Round:0 EC:0.9095 EP:0.6553 Recall:0.2197 NDCG:0.0824
+Edit Acc:1.0000
+EC:0.9095±0.0000 EP:0.6553±0.0000
+Edit Recall:0.2197 NDCG:0.0824
+Improve Recall:-0.0141 NDCG:-0.0060
+Edit Time:81.8827

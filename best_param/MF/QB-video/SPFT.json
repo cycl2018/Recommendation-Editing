@@ -1,0 +1,1 @@
+{"seed": "42", "device": "'cuda:0'", "topk": "50", "model": "MF", "dataset": "QB-video", "checkpoint": "-1", "max_edit_rounds": "20", "edit_round": "10", "edit_num": "10", "edit_type": "'SPFT'", "edit_lr": "0.03", "edit_loss": "'bce'", "alpha": "0.001", "sample_num": "100", "num_pre_epoch": "20", "plugin_weight": "''"}

@@ -1,0 +1,31 @@
+Check Point Path: ./checkpoint/LightGCN/QB-video/LightGCN@best.pth
+Loading data
+load weight from ./checkpoint/LightGCN/QB-video/LightGCN@best.pth
+Model Pretrain
+Pretrain Epoch:0 Recall:0.3187 NDCG:0.1971
+Pretrain Epoch:1 Recall:0.3190 NDCG:0.1972
+Pretrain Epoch:2 Recall:0.3192 NDCG:0.1973
+Pretrain Epoch:3 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:4 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:5 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:6 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:7 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:8 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:9 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:10 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:11 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:12 Recall:0.3193 NDCG:0.1973
+Pretrain Epoch:13 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:14 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:15 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:16 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:17 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:18 Recall:0.3193 NDCG:0.1972
+Pretrain Epoch:19 Recall:0.3193 NDCG:0.1972
+Org Recall:0.3193 NDCG:0.1973
+Edit Round:0 EC:0.8922 EP:0.8672 Recall:0.3159 NDCG:0.1948
+Edit Acc:1.0000
+EC:0.8922±0.0000 EP:0.8672±0.0000
+Edit Recall:0.3159 NDCG:0.1948
+Improve Recall:-0.0035 NDCG:-0.0024
+Edit Time:62.4764

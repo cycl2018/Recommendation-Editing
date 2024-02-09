@@ -1,0 +1,31 @@
+Check Point Path: ./checkpoint/XSimGCL/KuaiRand/XSimGCL@best.pth
+Loading data
+load weight from ./checkpoint/XSimGCL/KuaiRand/XSimGCL@best.pth
+Model Pretrain
+Pretrain Epoch:0 Recall:0.2480 NDCG:0.0953
+Pretrain Epoch:1 Recall:0.2484 NDCG:0.0958
+Pretrain Epoch:2 Recall:0.2488 NDCG:0.0959
+Pretrain Epoch:3 Recall:0.2493 NDCG:0.0961
+Pretrain Epoch:4 Recall:0.2493 NDCG:0.0961
+Pretrain Epoch:5 Recall:0.2494 NDCG:0.0961
+Pretrain Epoch:6 Recall:0.2490 NDCG:0.0961
+Pretrain Epoch:7 Recall:0.2492 NDCG:0.0961
+Pretrain Epoch:8 Recall:0.2495 NDCG:0.0960
+Pretrain Epoch:9 Recall:0.2495 NDCG:0.0961
+Pretrain Epoch:10 Recall:0.2493 NDCG:0.0960
+Pretrain Epoch:11 Recall:0.2497 NDCG:0.0961
+Pretrain Epoch:12 Recall:0.2498 NDCG:0.0961
+Pretrain Epoch:13 Recall:0.2499 NDCG:0.0961
+Pretrain Epoch:14 Recall:0.2501 NDCG:0.0961
+Pretrain Epoch:15 Recall:0.2501 NDCG:0.0961
+Pretrain Epoch:16 Recall:0.2498 NDCG:0.0961
+Pretrain Epoch:17 Recall:0.2499 NDCG:0.0962
+Pretrain Epoch:18 Recall:0.2498 NDCG:0.0961
+Pretrain Epoch:19 Recall:0.2499 NDCG:0.0961
+Org Recall:0.2501 NDCG:0.0961
+Edit Round:0 EC:0.7186 EP:0.8346 Recall:0.2472 NDCG:0.0946
+Edit Acc:1.0000
+EC:0.7186 EP:0.8346
+Edit Recall:0.2472 NDCG:0.0946
+Improve Recall:-0.0029 NDCG:-0.0015
+Edit Time:39.0806

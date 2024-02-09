@@ -1,0 +1,31 @@
+Check Point Path: ./checkpoint/MF/KuaiRand/MF@best.pth
+Loading data
+load weight from ./checkpoint/MF/KuaiRand/MF@best.pth
+Model Pretrain
+Pretrain Epoch:0 Recall:0.1793 NDCG:0.0671
+Pretrain Epoch:1 Recall:0.1807 NDCG:0.0674
+Pretrain Epoch:2 Recall:0.1805 NDCG:0.0673
+Pretrain Epoch:3 Recall:0.1811 NDCG:0.0675
+Pretrain Epoch:4 Recall:0.1810 NDCG:0.0674
+Pretrain Epoch:5 Recall:0.1816 NDCG:0.0676
+Pretrain Epoch:6 Recall:0.1818 NDCG:0.0676
+Pretrain Epoch:7 Recall:0.1818 NDCG:0.0675
+Pretrain Epoch:8 Recall:0.1815 NDCG:0.0674
+Pretrain Epoch:9 Recall:0.1815 NDCG:0.0674
+Pretrain Epoch:10 Recall:0.1817 NDCG:0.0674
+Pretrain Epoch:11 Recall:0.1817 NDCG:0.0675
+Pretrain Epoch:12 Recall:0.1820 NDCG:0.0675
+Pretrain Epoch:13 Recall:0.1819 NDCG:0.0675
+Pretrain Epoch:14 Recall:0.1820 NDCG:0.0675
+Pretrain Epoch:15 Recall:0.1822 NDCG:0.0675
+Pretrain Epoch:16 Recall:0.1823 NDCG:0.0675
+Pretrain Epoch:17 Recall:0.1822 NDCG:0.0675
+Pretrain Epoch:18 Recall:0.1821 NDCG:0.0675
+Pretrain Epoch:19 Recall:0.1822 NDCG:0.0676
+Org Recall:0.1823 NDCG:0.0675
+Edit Round:0 EC:0.9497 EP:0.8453 Recall:0.1810 NDCG:0.0671
+Edit Acc:1.0000
+EC:0.9497 EP:0.8453
+Edit Recall:0.1810 NDCG:0.0671
+Improve Recall:-0.0013 NDCG:-0.0004
+Edit Time:61.7855
