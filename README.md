@@ -40,6 +40,15 @@ We are grateful to the authors of
 for making their project codes publicly available.
 
 ## Citation
-Our paper on this benchmark will be released soon!
+<!-- Our paper on this benchmark will be released soon! -->
 
-<!-- If you use our benchmark in your works, we would appreciate citations to the paper: -->
+If you use our benchmark in your works, we would appreciate citations to the paper:
+
+```bibtex
+@article{lai2024better,
+  title={Better Late Than Never: Formulating and Benchmarking Recommendation Editing},
+  author={Lai, Chengyu and Zhou, Sheng and Jiang, Zhimeng and Tan, Qiaoyu and Bei, Yuanchen and Chen, Jiawei and Zhang, Ningyu and Bu, Jiajun},
+  journal={arXiv preprint arXiv:2406.04553},
+  year={2024}
+}
+```
