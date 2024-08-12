@@ -1,8 +1,8 @@
 
 
 # Recommendation Editing
-
 The goal of recommendation editing is to quickly correct the erroneous recommendations of the recommendation system, thereby improving the user-friendliness of the recommendation system. For example, in the real-time re-ranking stage of industrial-level multi-stage recommendation systems, the recommendation system needs to perform real-time editing based on the negative feedback provided by users in real time, reducing the occurrence of negative feedback behavior in the recommended results of the next refresh.
+For more detailed information on Recommendation Editing, please refer to our paper:[Better Late Than Never: Formulating and Benchmarking Recommendation Editing](https://arxiv.org/abs/2406.04553).
 
 <div align="center">
 <img src="img/editing.png" border="0" width=400px/>
