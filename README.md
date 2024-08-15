@@ -33,14 +33,17 @@ Some important parameters:
 - --best_param: Running with optimal parameters(You can reproduce the results in Table 2 of the paper by using the best parameter).
 - --edit_type: The Editing method you want to use.
 - --edit_num: The number of times the Editing task is run.
+<br>
 If you don't want use best_param， you can set the following parameters by yourself.
+
 - --edit_lr: The learning rate in editing stage.
 - --edit_loss: The edit objective you want use，like 'bpr' or 'bce.(The 'bpr' represents our proposed editing BPR loss).
 - --model: The model you want edit.
 - --dataset: The dataset you want use.
 
+<br>
+Example of editing XSimGCL model by FT method.
 
-- Example of editing XSimGCL model by FT method.
 ```
 python edit.py --model_conf conf/XSimGCL/KuaiRand.conf --edit_type FT --best_param --edit_num 10
 ```
