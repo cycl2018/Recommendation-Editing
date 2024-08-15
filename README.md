@@ -29,7 +29,10 @@ python train.py --conf conf/XSimGCL/KuaiRand.conf
 ```
 ### Editing
 - Example of editing XSimGCL model by FT method.
-- --best_param indicates running with optimal parameters
+- --model_conf: The configuration file of the original model.
+- --best_param: Running with optimal parameters(You can reproduce the results in Table 2 of the paper by using the best parameter).
+- --edit_type: The Editing method you want to use.
+- --edit_num: The number of times the Editing task is run.
 ```
 python edit.py --model_conf conf/XSimGCL/KuaiRand.conf --edit_type FT --best_param --edit_num 10
 ```
