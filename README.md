@@ -5,7 +5,7 @@ The goal of recommendation editing is to quickly correct the erroneous recommend
 For more detailed information on Recommendation Editing, please refer to our paper:[Better Late Than Never: Formulating and Benchmarking Recommendation Editing](https://arxiv.org/abs/2406.04553).
 
 <div align="center">
-<img src="img/editing.png" border="0" width=400px/>
+<img src="img/editing.png" border="0" width=600px/>
 </div>
 
 ## 🚀Quick Start
@@ -47,7 +47,10 @@ Example of editing XSimGCL model by FT method.
 ```
 python edit.py --model_conf conf/XSimGCL/KuaiRand.conf --edit_type FT --best_param --edit_num 10
 ```
-
+## Comparison of different recommendation editing methods.
+<div align="center">
+<img src="img/cmp.png" border="0" width=600px/>
+</div>
 ## Acknowledgments
 We are grateful to the authors of 
 [SELFRec](https://github.com/Coder-Yu/SELFRec) 
