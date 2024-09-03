@@ -51,6 +51,7 @@ python edit.py --model_conf conf/XSimGCL/KuaiRand.conf --edit_type FT --best_par
 <div align="center">
 <img src="img/cmp.png" border="0" width=600px/>
 </div>
+
 ## Acknowledgments
 We are grateful to the authors of 
 [SELFRec](https://github.com/Coder-Yu/SELFRec) 
